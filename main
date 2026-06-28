@@ -1,0 +1,170 @@
+repeat task.wait() until _G.WindUI;
+
+-- CIV Tasks
+
+do  -- ToolStore Task
+	local args = {
+	"Civilian",
+	"ToolStore"
+	}
+	game:GetService("ReplicatedStorage"):WaitForChild("FE"):WaitForChild("NewPlayerTasks"):FireServer(unpack(args))
+end
+
+
+do
+	local args = { -- GunStore Task
+		"Civilian",
+		"GunStore"
+	}
+	game:GetService("ReplicatedStorage"):WaitForChild("FE"):WaitForChild("NewPlayerTasks"):FireServer(unpack(args))
+end
+
+do 
+	local args = {
+	"Civilian",
+	"ExploreMap"
+	}
+	game:GetService("ReplicatedStorage"):WaitForChild("FE"):WaitForChild("NewPlayerTasks"):FireServer(unpack(args))
+end
+
+-- DOT Tasks
+
+do  -- Locker room uniform Task
+	local args = {
+	"DOT",
+	"Uniform"
+	}
+	game:GetService("ReplicatedStorage"):WaitForChild("FE"):WaitForChild("NewPlayerTasks"):FireServer(unpack(args))
+end
+
+do  -- OK (Dismiss) task on DOT for acknowledeging ur tools.
+	local args = {
+	"DOT",
+	"Tools"
+	}
+	game:GetService("ReplicatedStorage"):WaitForChild("FE"):WaitForChild("NewPlayerTasks"):FireServer(unpack(args))
+end
+
+do  -- Opening ur MDT on the DOT TEAM
+	local args = {
+	"DOT",
+	"MDT"
+	}
+	game:GetService("ReplicatedStorage"):WaitForChild("FE"):WaitForChild("NewPlayerTasks"):FireServer(unpack(args))
+end
+
+do  --lowkey forgot but its on DOT
+	local args = {
+	"DOT",
+	"VehicleControls"
+	}
+	game:GetService("ReplicatedStorage"):WaitForChild("FE"):WaitForChild("NewPlayerTasks"):FireServer(unpack(args))
+	
+	local args = {
+	"DOT",
+	"CallRespond"
+	}
+	game:GetService("ReplicatedStorage"):WaitForChild("FE"):WaitForChild("NewPlayerTasks"):FireServer(unpack(args))
+end
+
+-- U WIll need to do the DOT spawn Vehicle tasks Urself cuz im not doing allat 
+
+-- FD TASKS
+
+-- Self explanatory same as the dot taskZ
+
+do 
+	local args = {
+	"Fire",
+	"Uniform"
+	}
+	game:GetService("ReplicatedStorage"):WaitForChild("FE"):WaitForChild("NewPlayerTasks"):FireServer(unpack(args))
+end
+
+
+do 
+	local args = {
+	"Fire",
+	"Tools"
+	}
+	game:GetService("ReplicatedStorage"):WaitForChild("FE"):WaitForChild("NewPlayerTasks"):FireServer(unpack(args))
+end
+
+do 
+	local args = {
+	"Fire",
+	"MDT"
+	}
+	game:GetService("ReplicatedStorage"):WaitForChild("FE"):WaitForChild("NewPlayerTasks"):FireServer(unpack(args))
+end
+
+-- u will need to spawn the car urself for fire as well
+
+do 
+	local args = {
+	"Fire",
+	"VehicleControls"
+	}
+	game:GetService("ReplicatedStorage"):WaitForChild("FE"):WaitForChild("NewPlayerTasks"):FireServer(unpack(args))
+end
+
+do
+local args = {
+	"Fire",
+	"CallRespond"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("FE"):WaitForChild("NewPlayerTasks"):FireServer(unpack(args))
+end
+
+-- PD TASk
+
+do 
+	local args = {
+	"Law",
+	"Uniform"
+	}
+	game:GetService("ReplicatedStorage"):WaitForChild("FE"):WaitForChild("NewPlayerTasks"):FireServer(unpack(args))
+end
+
+do 
+	local args = {
+	"Law",
+	"Tools"
+	}
+	game:GetService("ReplicatedStorage"):WaitForChild("FE"):WaitForChild("NewPlayerTasks"):FireServer(unpack(args))
+end
+
+do 
+	local args = {
+	"Law",
+	"MDT"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("FE"):WaitForChild("NewPlayerTasks"):FireServer(unpack(args))
+
+end
+
+--spawn the car ur self.
+do 
+local args = {
+	"Law",
+	"VehicleControls"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("FE"):WaitForChild("NewPlayerTasks"):FireServer(unpack(args))
+end
+
+do 
+	local args = {
+	"Law",
+	"Criminals"
+	}
+game:GetService("ReplicatedStorage"):WaitForChild("FE"):WaitForChild("NewPlayerTasks"):FireServer(unpack(args))
+end
+
+do 
+	local args = {
+	"Law",
+	"CallRespond"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("FE"):WaitForChild("NewPlayerTasks"):FireServer(unpack(args))
+
+end
