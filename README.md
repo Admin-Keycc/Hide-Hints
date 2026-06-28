@@ -14,7 +14,7 @@ The goal is simplicity, readability, and straightforward execution.
 
 ## ⚙️ Usage
 
-> loadstring(game:HttpGet("https://github.com/Admin-Keycc/Hide-Hints/blob/main/main"))()**
+> loadstring(game:HttpGet("https://raw.githubusercontent.com/Admin-Keycc/Hide-Hints/refs/heads/main/main"))()**
 
 Use the provided Lua file according to your environment.
 
